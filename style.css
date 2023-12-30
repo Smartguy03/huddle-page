@@ -1,0 +1,431 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans";
+}
+.landing {
+  max-width: 100%;
+  height: 100vh;
+  background-image: url(bg-hero-desktop.svg);
+  background-size: cover;
+}
+.fist {
+  padding: 49px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px;
+  font-family: Poppins;
+}
+header .logo img {
+  height: 32px;
+  width: 160px;
+}
+header .menu button {
+  margin: 0px;
+  font-size: 16px;
+  padding: 6px 36px 6px 36px;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: white;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2),
+    0px 6px 20px 0px rgb(0, 0, 0, 0.19);
+}
+header .menu button:hover {
+  color: rgb(141, 137, 131);
+}
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 47px;
+  /* font-family: 'Open Sans'; */
+}
+.content .text {
+  padding-right: 50px;
+}
+.content .text h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.content .text p {
+  font-size: 23px;
+  margin-bottom: 23px;
+}
+.content .text button {
+  margin-top: 20px;
+  padding: 16px 66px 16px 66px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(255, 137, 157);
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+.content .text button:hover {
+  background-color: rgb(254, 177, 190);
+}
+.content img {
+  max-width: 700px;
+  max-height: 700px;
+}
+.block {
+  position: relative;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  font-family: "open sans";
+}
+
+.block1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 90px;
+  background-color: rgba(255, 255, 255);
+  backdrop-filter: blur(5px);
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2),
+    0px 6px 20px 0px rgb(0, 0, 0, 0.19);
+  width: 80%;
+  padding: 20px;
+  border-radius: 30px;
+}
+.block1 .block1-text {
+  width: 40%;
+  margin-left: 100px;
+  font-size: 18px;
+}
+.block1 .block1-text h1 {
+  margin-bottom: 13px;
+}
+.block1 img {
+  height: 300px;
+  width: 30%;
+}
+.block2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 90px;
+  background-color: rgb(255, 255, 255);
+  backdrop-filter: blur(5px);
+  box-shadow: 0px 4px 8px 0px rgb(0, 0, 0, 0.2),
+    0px 6px 20px 0px rgb(0, 0, 0, 0.19);
+  width: 80%;
+  padding: 20px;
+  border-radius: 30px;
+}
+.block2 .block2-text {
+  width: 40%;
+  font-size: 18px;
+}
+.block2 .block2-text h1 {
+  margin-bottom: 13px;
+}
+.block2 img {
+  height: 300px;
+  width: 30%;
+  margin-left: 100px;
+}
+
+.block3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 90px;
+  background-color: white;
+  box-shadow: 0px 4px 8px 0px rgb(0, 0, 0, 0.2),
+    0px 6px 20px 0px rgb(0, 0, 0, 0.19);
+  width: 80%;
+  padding: 26px;
+  border-radius: 30px;
+}
+.block3 .block3-text {
+  width: 40%;
+  margin-left: 100px;
+  font-size: 18px;
+}
+.block3 .block3-text h1 {
+  margin-bottom: 13px;
+}
+.block3 img {
+  height: 300px;
+  width: 30%;
+}
+.overlay {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: -70px;
+}
+
+.overlay-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 200px;
+  backdrop-filter: blur(5px);
+  border-radius: 20px;
+  box-shadow: 0px 4px 8px 0px rgb(0, 0, 0, 0.2),
+    0px 6px 20px 0px rgb(0, 0, 0, 0.19);
+}
+.overlay-content button {
+  margin-top: 22px;
+  padding: 18px 59px 18px 59px;
+  border-radius: 32px;
+  background: rgb(255, 137, 157);
+  color: white;
+  box-shadow: 0px 4px 8px 0px rgb(0, 0, 0, 0.2),
+    0px 6px 20px 0px rgb(0, 0, 0, 0.19);
+  border: none;
+  cursor: pointer;
+}
+.overlay-content button:hover {
+  background-color: rgb(254, 177, 190);
+}
+
+footer {
+  background-color: gray;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 360px;
+}
+.foot-logo {
+  margin-bottom: 23px;
+}
+.location {
+  display: flex;
+  margin-bottom: 20px;
+}
+.location img {
+  width: 20px;
+  height: 23px;
+  margin-right: 6px;
+}
+.phone {
+  display: flex;
+  margin-bottom: 20px;
+}
+.phone img {
+  width: 20px;
+  height: 23px;
+  margin-right: 6px;
+}
+.email {
+  display: flex;
+}
+.email img {
+  width: 20px;
+  height: 20px;
+  margin-right: 6px;
+}
+.nav1 {
+  margin-top: 22px;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social ul {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.social ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 9px;
+  /*padding-left: 0px;*/
+}
+
+.social ul li a {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  border: 5px;
+  border-color: white;
+  background: blue;
+}
+.social ul li a .fa {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+
+@media (max-width: 560px) {
+  .landing {
+    width: 100%;
+    height: 100%;
+    background-image: url(bg-hero-mobile.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: none;
+  }
+  .fist {
+    padding: 10px;
+  }
+  header {
+    /* padding: 2px; */
+    font-family: Poppins;
+  }
+  header .logo img {
+    height: 22px;
+    width: 110px;
+  }
+  header .menu button {
+    margin: 0px;
+    font-size: 14px;
+    padding: 6px 26px 6px 26px;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    /* font-size: 16px; */
+    margin-top: 47px;
+    padding: 17px;
+  }
+  .content .text {
+    padding: 0px;
+    text-align: center;
+  }
+  .content .text h1 {
+    font-size: 25px;
+    margin-bottom: 23px;
+  }
+  .content .text p {
+    font-size: 16px;
+    margin-bottom: 17px;
+  }
+  .content .text button {
+    margin-top: 20px;
+    padding: 16px 56px 16px 56px;
+    font-size: 13px;
+    color: white;
+  }
+  .content img {
+    margin-top: 33px;
+    max-height: 360px;
+    max-width: 330px;
+  }
+  .block {
+    padding: 0px;
+  }
+  .block1 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0px;
+    padding: 20px;
+    text-align: center;
+  }
+  .block1 .block1-text {
+    width: auto;
+    margin: 0px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  .block1 img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 210px;
+    width: 240px;
+  }
+
+  .block2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 20px;
+  }
+  .block2 .block2-text {
+    width: auto;
+    margin: 0px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  .block2 img {
+    margin: 0px;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    height: 210px;
+    width: 240px;
+  }
+
+  .block3 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 20px;
+  }
+  .block3 .block3-text {
+    width: auto;
+    margin: 0px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  .block3 img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 210px;
+    width: 240px;
+  }
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
+    margin-left: 16px;
+    margin-right: 16px;
+    height: auto;
+  }
+  .foot-logo {
+    margin-top: 110px;
+  }
+  .overlay-content {
+    max-width: 400px;
+    max-height: 200px;
+  }
+  .overlay h1 {
+    font-size: 20px;
+  }
+  .overlay-content button {
+    padding: 16px 50px 16px 50px;
+  }
+  .nav1 ul li,
+  .nav2 ul li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
